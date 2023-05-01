@@ -163,3 +163,4 @@ console.log(Math.round(someNum));
 let resolution = "12.2px"
 console.log(parseInt(resolution));
 console.log(parseFloat(resolution));
+

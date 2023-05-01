@@ -157,9 +157,31 @@ switch(day){
 //     Математичні операції для обчислення: "+", "-", "*", "/".
 //     Результат виводити в консоль.
 
+let num = 10
+let num1 = 2
+let math = "/"
+switch(math){
+    case "+":
+        console.log(num+num1);
+        break;
+    case "-":
+        console.log(num-num1);c
+        break;
+    case "*":
+        console.log(num*num1);
+        break;
+    case "/":
+        console.log(num/num1);
+        break;
+}
+
+
 
 // 8.*  Використовуючи властивості рядків (тип string), та регулярний вираз (regular expression) видалити голосні букви зі слова.
 
+let str = "JavaScript";
+let result = str.replace(/[ai]/g, '')
+console.log(result)
 
 
 // 9.*  Використовуючи оператор if реалізувати логіку переводу метрів в кілометри,

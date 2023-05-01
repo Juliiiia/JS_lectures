@@ -131,7 +131,7 @@ let someText = " Hello world!! ";
 //console.log(someText.substring(0, 6));
 // console.log(someText.toUpperCase());
 // console.log(someText.toLowerCase());
-// console.log(someText.indexOf('o'));
+console.log(someText.indexOf('o'));
 // console.log(someText.trim());
 // console.log(someText.charAt(5));
 console.log(someText[1])

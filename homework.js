@@ -10,10 +10,10 @@
 //     то виводити в консоль текст "Ми йдемо в інше кафе"
 //     (Змінні типу інтеджер містять кількість продуктів в наявності у вигляді вхідних даних)
 
-let hamburgers = 3;
-let fries = 2;
+let hamburgers = 2;
+let fries = 3;
 
-if(hamburgers === 3 && fries === 3){
+if(hamburgers >= 3 && fries >= 3){
     console.log("Ми поїли")
 } else {
     console.log("Ми йдемо в інше кафе")
@@ -60,30 +60,30 @@ if(!(price2 >= 1000 && price2 <= 1900)){
 // 4.  За номером пори року вивести назву цієї пори року використовуючи оператор if-else-if
 //     Результат виводити в консоль.
 
-let Month = 12;
-if(Month === 1){
+let month = 12;
+if(month === 1){
     console.log("It's January")
-} else if(Month === 2){
+} else if(month === 2){
     console.log("It's February") 
-} else if(Month === 3){
+} else if(month === 3){
     console.log("It's March")
-} else if(Month === 4){
+} else if(month === 4){
     console.log("It's April")
-} else if(Month === 5){
+} else if(month === 5){
     console.log("It's May")
-} else if(Month === 6){
+} else if(month === 6){
     console.log("It's June")
-} else if(Month === 7){
+} else if(month === 7){
     console.log("It's July")
-} else if(Month === 8){
+} else if(month === 8){
     console.log("It's August")
-} else if(Month === 9){
+} else if(month === 9){
     console.log("It's September")
-} else if(Month === 10){
+} else if(month === 10){
     console.log("It's October")
-} else if(Month === 11){
+} else if(month === 11){
     console.log("It's November")
-} else if(Month === 12) {
+} else if(month === 12) {
     console.log("It's December")
 }
 
@@ -165,7 +165,7 @@ switch(math){
         console.log(num+num1);
         break;
     case "-":
-        console.log(num-num1);c
+        console.log(num-num1);
         break;
     case "*":
         console.log(num*num1);

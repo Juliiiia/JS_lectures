@@ -188,3 +188,14 @@ console.log(result)
 //     Наприклад: 1000 метрів це 1 кілометр;  32 метри це 0,032 кілометра і т.д.
 
 //     Підказка(https://ukr-lifehacks.ed-era.com/rozdil-9/zvyazok_chislivnykiv)
+
+let meters = 2000;
+let km = meters/1000;
+if(km === 1){
+    console.log( meters + " метрів це " + km + " кілометр")
+}else if(km > 1){
+    console.log(meters + " метрів це " + km + " кілометри")
+} else if(km < 1){
+    console.log(meters + " метри це " + km + " кілометра" )
+}
+    
